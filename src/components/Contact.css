@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Typography{
+    color: black;
+}
+.container{
+    display: flex;
+    width: 100%;
+    
+}
+.container-flex{
+    width: 50%;
+}
+#rafiki-box{
+    color:  rgba(100, 100, 100, 1);
+    width: 450px;
+   
+    border-radius: 15px;
+    height: 60px;
+    background-color: rgba(40, 38, 38, 1);
+    text-align: center;
+    margin-left: 90px;
+    font-family: cursive;
+    
+   
+}
+h5{
+    font-size: 25px;
+    padding: 10px;
+}
+.Headng{
+    font-size: 30px;
+    color: rgba(255, 244, 184, 1) ;
+    text-align: center;
+    padding-top: 50px;
+}
+#rafiki-img{
+    height: 562px;
+    width: 719px;
+}
+form{
+    height: 640px;
+    width: 500px;
+    background-color: rgba(47, 47, 47, 1);
+    border-radius: 18px;
+}
+input{
+    height: 45px;
+    width: 460px ;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 20px;
+}
+textarea{
+   
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 460px;
+    height: 150px;
+}
+:placeholder-shown{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+label{
+    font-size: 20px;
+    color: rgba(255, 236, 132, 1);
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-right: 350px;
+    
+}
+.lab{
+    font-size: 20px;
+    color: rgba(255, 236, 132, 1);
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: -52px;
+    
+}
+form .sub{
+    background-color: #FFD700; /* Yellow color */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    margin-left: 280px;
+    margin-top: 25px;
+    
+}
+#Submt{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 7px;
+}
+#panel1-header{
+    width: 500px;
+   
+}
+.Typography{
+    width: 500px;
+
+}
+
+div .Drop-down select{
+    width: 159px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+   
+    margin-inline: 5px;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .container{
+        flex-direction: column;
+
+    }
+    #rafiki-img{
+        height: 362px;
+        width: 519px;
+    }
+    #rafiki-box{
+        color:  rgba(100, 100, 100, 1);
+        width: 450px;
+       
+        border-radius: 15px;
+        height: 60px;
+        background-color: rgba(40, 38, 38, 1);
+        text-align: center;
+        margin-left: 20px;
+        font-family: cursive;
+        
+       
+    }
+}

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    background: #2A2A2A;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+.merchant-hero{
+   background: url('./assets/mer_hero.png');
+   width: 100%;
+   height: 850px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow-x: hidden;
+}
+.hero-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 150px;
+}
+.hero-content .text-content{
+    width: 60%;
+}
+.hero-content .text-content h3{
+    color: #FFF4B8;
+    /* width: 750px; */
+    font-family: Inter;  
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.823%; /* 57.995px */
+     letter-spacing: -0.48px;
+}.hero-content .text-content p{
+    font-family: Roboto;
+    width: 770px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.823%; /* 38.663px */
+    letter-spacing: -0.32px;
+    background: linear-gradient(90deg, #FFDD1A 0%, #CFB000 62.9%, #C2B04C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+.hero-content .text-content a{
+    color: #FFF4B4;
+    border-radius: 12px;
+    background: rgba(255, 233, 109, 0.26);
+    box-shadow: 0px 2.951px 2.951px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8.199999809265137px);
+    display: inline-flex;
+    padding: 17.703px 25.079px;
+    justify-content: center;
+    align-items: center;
+    gap: 0.738px;
+    font-family: "SF Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: normal;
+    cursor: pointer;
+}
+.hero-content .content-img img{
+    width: 100%;
+}
+.merchant-page a{
+color: #9F9F9F;
+font-family: "SF Pro";
+font-size: 32px;
+font-style: normal;
+font-weight: 510;
+line-height: 39.992px; /* 124.976% */
+font-variant: all-small-caps;
+letter-spacing: -0.554px;
+border-radius: 40.5px;
+border: 1px solid #333;
+display: inline-flex;
+padding: 12px 25.5px;
+justify-content: center;
+align-items: center;
+gap: 1px;
+}
+.merchant-page{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+.merchant-page .page-content-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.merchant-page .page-content-box .content-img{
+ flex: 1 1 30rem;
+}
+.merchant-page .page-content-box .page-content{
+    flex: 1 1 30rem;
+}
+.merchant-page .page-content-box .page-content h3{
+    color: #FFDD1A;
+    font-family: "SF Pro";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 39.992px; /* 99.981% */
+    letter-spacing: -0.554px;
+}
+.merchant-page .page-content-box .page-content p{
+    font-family: "SF Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 38px; /* 118.75% */
+    letter-spacing: -0.554px;
+    background: linear-gradient(90deg, #FFEC84 0%, #998E4F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buttons-scroll {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+/* slider animation */
+@keyframes slide1 {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(10%);
+        
+    }
+    
+}
+@keyframes slide2 {
+    from{
+        transform: translateX(10%);
+
+    }
+    to{
+        transform: translateX(0);
+        
+    }
+    
+}
+.buttons-scroll .scroll-row-1{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    animation: slide1 3s infinite linear alternate;
+    margin-left: 50px;
+
+}
+.buttons-scroll .scroll-row-2{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    animation: slide2 3s infinite linear alternate;
+    margin-left: 50px;
+}
+.buttons-scroll p{
+color: rgba(255, 247, 202, 0.65);
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 39.992px; /* 99.981% */
+letter-spacing: -0.554px;
+display: inline-flex;
+padding: 10px 31px;
+justify-content: center;
+align-items: center;
+gap: 1px;
+border-radius: 40px;
+border: 1px solid rgba(255, 244, 184, 0.36);
+margin-left: 10px;
+
+}
+.accordian_contact{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+@media screen and (max-width:780px) {
+    .merchant-hero{
+        height: 650px;
+     }
+     .merchant-page a{
+        font-size: 22px;
+        padding: 8px 15px;
+        margin-bottom: 14px;
+     }
+    .hero-content{
+       display: block;
+     }
+     .hero-content .content-img img{
+        display: none;
+    }
+    .hero-content .text-content{
+        margin-left: 20px;
+        width: 80%;
+    }
+    .hero-content .text-content h3{
+        font-size: 35px;
+    }
+    .hero-content .text-content p{
+        font-size: 25px;
+        width: 90%;
+    }
+    .hero-content .text-content a{
+        font-size: 22px;
+    }
+    .hero-content .text-content button{
+        padding: 17.703px 25.079px;
+        font-size: 20px;
+    }
+    .merchant-page .page-content-box{
+        margin-bottom: 50px;
+    }
+    .page-content-box .content-img {
+        order: 1;
+    }
+    .page-content-box .page-content {
+        order: 2;
+    }
+    .page-content-box img{
+        width: 80%;
+    }
+    .merchant-page .page-content-box .page-content h3{
+    font-size: 30px;
+    }
+    .merchant-page .page-content-box .page-content p{
+        font-size: 23px;
+       
+     }
+    .buttons-scroll p{
+        font-size: 18px;
+        margin-bottom: 10px;
+        padding: 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+}

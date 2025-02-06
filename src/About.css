@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+     background: rgba(42, 42, 42, 1);
+    scroll-behavior: smooth;
+    font-family: Inter;
+}
+.hero{
+    width: 100%;
+    height: 934px;
+    background: url('Carrier.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero h2{
+    font-size:60px ;
+    color: rgba(255, 224, 0, 1);
+    padding-top: 72px;
+    text-align: left;
+    padding-left: 77px;
+}
+.hero span{
+    color: white;
+    font-size: 30px;
+    float: left;
+    text-align: left;
+    padding-left: 78px;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.Intro h3{
+    font-size: 50px;
+    color: rgba(255, 239, 146, 1);
+    padding-left: 47px;
+    font-family: inter;
+    padding-top: 100px;
+    font-family: inter;
+}
+.Intro p{
+    font-size: 30px;
+    color: rgba(255, 244, 184, 1);
+    text-align: center;
+    text-align: left;
+    margin-left: 58px;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.Intro li{
+    
+    font-size: 30px;
+    color: rgba(255, 244, 184, 1);
+    font-style: italic;
+    padding-left: 85px;
+    text-align: justify;
+}
+.Intro .square{
+    height: 31px;
+    width: 31px;
+    background: yellow;
+    box-shadow: 0px 1px 11.4px 0px rgba(255, 236, 132, 1);
+    margin-left: 48px;
+    margin-top: 25px;
+}
+.text h5{
+    
+    font-size: 48px;
+    color: rgba(255, 224, 0, 1);
+    line-height: 61px;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: justify;
+    text-shadow: 0px 1px 9px  rgba(255, 244, 184, 0.62);
+
+}
+.Mission h4{
+    font-size: 60px;
+    color:  rgba(255, 239, 146, 1);
+margin-left: 50px;
+text-align: left;
+    
+}
+
+.Mission p{
+    font-size: 30px;
+    color: rgba(255, 244, 184, 1);
+    font-style: italic;
+    margin-left: 75px;
+    padding-top: 30px;
+}

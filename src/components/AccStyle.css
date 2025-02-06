@@ -1,0 +1,46 @@
+
+
+ option{
+  width: 200px;
+  height: 50px;
+  background: #333;
+  
+}
+.container-form h4{
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  text-align: left;
+  margin-left: -20px;
+}
+   
+.container-form select option{
+  color:white;
+}
+form h3{
+  font-size: 36px;
+  color: rgba(255, 244, 184, 1);
+  padding-top: 53px;
+}
+
+label{
+  font-size: 20px;
+  color:  rgba(255, 255, 255, 1);
+  padding-left: 20px;
+  
+}
+
+form button {
+    background-color: #FFD700; /* Yellow color */
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer;
+    margin-left: 280px;
+    margin-top: 25px;
+  }
